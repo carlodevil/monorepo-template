@@ -14095,6 +14095,11 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
+tailwind-dev-package@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/tailwind-dev-package/-/tailwind-dev-package-1.1.0.tgz#e0e88250cd772adcabea762285f27c033fec13b9"
+  integrity sha512-MAa7mTNawB+Fm3ZszPfYYX1h8r/ienwPbPNE0QtwZD65JGywATI+S/p8QChc/++LjMg9uhKZY+5bSFARLE55yw==
+
 "tailwindcss@npm:@tailwindcss/postcss7-compat":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@tailwindcss/postcss7-compat/-/postcss7-compat-2.1.2.tgz#4ae2a3a3c05622ee04307997b0f8bea5c8dbc2b6"
