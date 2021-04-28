@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "button-generic": {
+      "signature": "42dd9c1fd9a9f86c767871c28de2476a",
+      "file": true
+    }
+  }
+}
