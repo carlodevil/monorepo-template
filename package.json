@@ -25,8 +25,10 @@
     "@storybook/vue3": "^6.3.0-alpha.15",
     "autoprefixer": "^9",
     "babel-loader": "^8.2.2",
-    "tailwind-dev-package": "^1.1.0",
-    "vue-loader": "^16.2.0"
+    "tailwind-dev-package": "^1.2.2",
+    "vue-loader": "^16.2.0",
+    "vue-loader-v16": "^16.2.0",
+    "vue-template-compiler": "^2.6.12"
   },
   "dependencies": {}
 }

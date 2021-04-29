@@ -5571,6 +5571,11 @@ date-fns@^1.27.2:
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-1.30.1.tgz#2e71bf0b119153dbb4cc4e88d9ea5acfb50dc05c"
   integrity sha512-hBSVCvSmWC+QypYObzwGOd9wqdDpOt+0wl0KbU+R+uuZBS1jN8VsD1ss3irQDknRj5NvxiTF6oj/nDRnN/UQNw==
 
+de-indent@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
+  integrity sha1-sgOOhG3DO6pXlhKNCAS0VbjB4h0=
+
 deasync@^0.1.15:
   version "0.1.21"
   resolved "https://registry.yarnpkg.com/deasync/-/deasync-0.1.21.tgz#bb11eabd4466c0d8776f0d82deb8a6126460d30f"
@@ -7756,7 +7761,7 @@ hastscript@^6.0.0:
     property-information "^5.0.0"
     space-separated-tokens "^1.0.0"
 
-he@1.2.x, he@^1.2.0:
+he@1.2.x, he@^1.1.0, he@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
@@ -14095,10 +14100,10 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
-tailwind-dev-package@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/tailwind-dev-package/-/tailwind-dev-package-1.1.0.tgz#e0e88250cd772adcabea762285f27c033fec13b9"
-  integrity sha512-MAa7mTNawB+Fm3ZszPfYYX1h8r/ienwPbPNE0QtwZD65JGywATI+S/p8QChc/++LjMg9uhKZY+5bSFARLE55yw==
+tailwind-dev-package@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/tailwind-dev-package/-/tailwind-dev-package-1.2.2.tgz#64e904eae9916615af68856d2d8e64394272138d"
+  integrity sha512-cLTbIUZfJNJnCOM4QgTrk6cm5ikx4Oe4KsqOXKUvFdmhES7rJznJcwHcfOgKL0sYoHRUvNsodUcx7qlH2EKhLQ==
 
 "tailwindcss@npm:@tailwindcss/postcss7-compat":
   version "2.1.2"
@@ -15105,7 +15110,8 @@ vue-jest@^5.0.0-0:
     extract-from-css "^0.4.4"
     tsconfig "^7.0.0"
 
-"vue-loader-v16@npm:vue-loader@^16.1.0", vue-loader@^16.2.0:
+vue-loader-v16@^16.2.0, "vue-loader-v16@npm:vue-loader@^16.1.0", vue-loader@^16.2.0:
+  name vue-loader
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-16.2.0.tgz#046a53308dd47e58efe20ddec1edec027ce3b46e"
   integrity sha512-TitGhqSQ61RJljMmhIGvfWzJ2zk9m1Qug049Ugml6QP3t0e95o0XJjk29roNEiPKJQBEi8Ord5hFuSuELzSp8Q==
@@ -15137,6 +15143,14 @@ vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   dependencies:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
+
+vue-template-compiler@^2.6.12:
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.6.12.tgz#947ed7196744c8a5285ebe1233fe960437fcc57e"
+  integrity sha512-OzzZ52zS41YUbkCBfdXShQTe69j1gQDZ9HIX8miuC9C3rBCk9wIRjLiZZLrmX9V+Ftq/YEyv1JaVr5Y/hNtByg==
+  dependencies:
+    de-indent "^1.0.2"
+    he "^1.1.0"
 
 vue-template-es2015-compiler@^1.6.0, vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
