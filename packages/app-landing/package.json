@@ -13,7 +13,6 @@
     "dependencies": {
         "@monorepo-template/ui": "file:.yalc/@monorepo-template/ui",
         "core-js": "^3.6.5",
-        "tailwindcss": "^2.1.2",
         "vue": "^3.0.0",
         "vue-router": "^4.0.0-0"
     },
@@ -33,7 +32,8 @@
         "lint-staged": "^9.5.0",
         "postcss": "^8.2.13",
         "prerender-spa-plugin": "^3.4.0",
-        "typescript": "~3.9.3"
+        "typescript": "~3.9.3",
+        "tailwindcss": "^2.1.2"
     },
     "gitHooks": {
         "pre-commit": "lint-staged"
