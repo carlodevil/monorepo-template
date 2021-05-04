@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <comp>Welcome to your main Client-Side Application!</comp>
+    <comp>Welcome to your Landing Page Application!</comp>
   </div>
 </template>
 

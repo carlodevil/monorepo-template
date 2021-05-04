@@ -1,5 +1,5 @@
 {
-  "name": "app-main",
+  "name": "@monorepo-template/app-main",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "button-generic": "file:.yalc/button-generic",
+    "@monorepo-template/ui": "file:.yalc/@monorepo-template/ui",
     "core-js": "^3.6.5",
     "register-service-worker": "^1.7.1",
     "vue": "^3.0.0",
@@ -18,12 +18,12 @@
     "vuex": "^4.0.0-0"
   },
   "devDependencies": {
+    "@babel/plugin-syntax-module-string-names": "^7.12.13",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-e2e-cypress": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-pwa": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-plugin-unit-jest": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
@@ -37,8 +37,7 @@
     "lint-staged": "^9.5.0",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "typescript": "~3.9.3",
-    "vue-jest": "^5.0.0-0"
+    "typescript": "~3.9.3"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"

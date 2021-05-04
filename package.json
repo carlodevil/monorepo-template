@@ -1,34 +1,24 @@
 {
-  "name": "monorepo-template",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/carlodevil/monorepo-template.git",
-  "author": "Carlo de Villiers <carlodevil1@gmail.com>",
-  "license": "MIT",
-  "private": true,
-  "workspaces": [
-    "lib/**",
-    "packages/*"
-  ],
-  "scripts": {
-    "install:prod": "yarn install --production --frozen-lockfile",
-    "serve:main": "cd packages/app-main && yarn serve",
-    "build:main": "cd packages/app-main && yarn build",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.13.16",
-    "@storybook/addon-actions": "^6.3.0-alpha.15",
-    "@storybook/addon-essentials": "^6.3.0-alpha.15",
-    "@storybook/addon-links": "^6.3.0-alpha.15",
-    "@storybook/vue3": "^6.3.0-alpha.15",
-    "autoprefixer": "^9",
-    "babel-loader": "^8.2.2",
-    "tailwind-dev-package": "^1.2.2",
-    "vue-loader": "^16.2.0",
-    "vue-loader-v16": "^16.2.0",
-    "vue-template-compiler": "^2.6.12"
-  },
-  "dependencies": {}
+    "name": "monorepo-template",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/carlodevil/monorepo-template.git",
+    "author": "Carlo de Villiers <carlodevil1@gmail.com>",
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "install:prod": "yarn install --production --frozen-lockfile",
+        "serve:main": "cd packages/app-main && yarn serve",
+        "serve:landing": "cd packages/app-landing && yarn serve",
+        "serve:landing-build": "cd packages/app-landing && yarn serve:build",
+        "build:main": "cd packages/app-main && yarn build",
+        "build:landing": "cd packages/app-landing && yarn build",
+        "storybook": "cd packages/ui && yarn storybook",
+        "build-storybook": "cd packages/ui && yarn build-storybook",
+        "component": "cd packages/ui && yarn component",
+        "refresh": "cd packages/ui && yalc push"
+    }
 }

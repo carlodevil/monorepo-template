@@ -1,8 +1,0 @@
-{
-  "name": "button-generic",
-  "version": "1.0.0",
-  "description": "A generic vue button with story.",
-  "main": "src/index.js",
-  "author": "CG de Villiers",
-  "license": "MIT"
-}

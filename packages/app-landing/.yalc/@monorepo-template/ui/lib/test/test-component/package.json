@@ -1,0 +1,8 @@
+{
+  "name": "test-component",
+  "version": "1.0.0",
+  "description": "A test component.",
+  "main": "index.js",
+  "author": "CG de Villiers",
+  "license": "MIT"
+}
