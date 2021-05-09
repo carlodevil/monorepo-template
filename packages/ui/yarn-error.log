@@ -1,0 +1,53 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/carlodevilliers/Library/Application Support/cloud-code/installer/google-cloud-sdk/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/carlodevilliers/Repositories/vue-ui-template/package.json: Unexpected token } in JSON at position 648
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "@monorepo-template/ui",
+    "version": "1.0.0",
+    "description": "A Vue 3 UI library template with Storybook",
+    "main": "src/index.js",
+    "author": "CG de Villiers",
+    "license": "MIT",
+    "scripts": {
+      "ui:add": "scripts/add.js"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.13.16",
+      "@storybook/addon-actions": "^6.3.0-alpha.15",
+      "@storybook/addon-essentials": "^6.3.0-alpha.15",
+      "@storybook/addon-links": "^6.3.0-alpha.15",
+      "@storybook/vue3": "^6.3.0-alpha.15",
+      "autoprefixer": "^9",
+      "babel-loader": "^8.2.2",
+      "prompt": "^1.1.0",
+      "tailwind-dev-package": "^1.2.2",
+      "vue-loader": "^16.2.0",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

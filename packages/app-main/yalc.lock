@@ -2,7 +2,7 @@
   "version": "v1",
   "packages": {
     "@monorepo-template/ui": {
-      "signature": "feba34c8a070d0615a7a5fd936a2fee4",
+      "signature": "da4014672eba248e8d7a40fcb45c25f5",
       "file": true
     }
   }

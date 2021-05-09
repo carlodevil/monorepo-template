@@ -6,9 +6,10 @@
   "author": "CG de Villiers",
   "license": "MIT",
   "scripts": {
-    "component": "scripts/add.js && yalc push",
+    "component": "scripts/add.js",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build": "NODE_ENV=production npx tailwindcss-cli@latest build ./src/tailwind.css -o ./dist/tailwind.css"
   },
   "devDependencies": {
     "@babel/core": "^7.13.16",
@@ -16,10 +17,13 @@
     "@storybook/addon-essentials": "^6.3.0-alpha.19",
     "@storybook/addon-links": "^6.3.0-alpha.19",
     "@storybook/vue3": "^6.3.0-alpha.19",
+    "@tailwindcss/postcss7-compat": "^2.1.2",
+    "autoprefixer": "^9",
     "babel-loader": "^8.2.2",
+    "postcss": "^7",
     "prompt": "^1.1.0",
     "storybook": "^6.2.9",
-    "tailwind-dev-package": "^1.2.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "vue": "^3.0.0",
     "vue-loader": "^16.2.0"
   },

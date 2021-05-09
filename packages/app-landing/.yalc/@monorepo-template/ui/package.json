@@ -6,13 +6,14 @@
   "author": "CG de Villiers",
   "license": "MIT",
   "scripts": {
-    "component": "scripts/add.js && yalc push",
+    "component": "scripts/add.js",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build": "NODE_ENV=production npx tailwindcss-cli@latest build ./src/tailwind.css -o ./dist/tailwind.css"
   },
   "resolutions": {
     "vue-loader": "^16.0.0"
   },
   "dependencies": {},
-  "yalcSig": "feba34c8a070d0615a7a5fd936a2fee4"
+  "yalcSig": "da4014672eba248e8d7a40fcb45c25f5"
 }
